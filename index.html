@@ -4,36 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href= "./landingPage.css">
-    <title>Crime Reporting System</title>
+    <title>Neighborhood Crime Reporting System</title>
 </head>
 <body>
     <script src = "./javascript.js"></script>
     <header>
         <h1 id="Title">Crime Reporting System</h1>
         <ul>
-            <li><a href="#footer">Contact Us</a></li>
+            <li><a href="#footer" id ="cu">Contact Us</a></li>
             <li><a href="#">About</a></li>
-            <li><button>Sign In</button></li>
+            <li><button >Sign In</button></li>
         </ul>
     </header>
     <main>
-
 
         <section class="firstSection">
             <div class="sub">
             <h1>Crime Reporting System</h1>
             <p>Report crimes and view real-time analytics<br>to help keep community safe</p>
-            <button>Sign Up</button>
+            <a href="#register"><button>Sign Up</button></a>
         </div>
             
             <img src="./images/haha (1).png">
             
         </section>
 
-        <section class="regSection">
+        <section class="regSection" id="register">
+
             <div class="signupBox">
+                <div class="quote">
+                <h2>"Change starts with a single step. <br>When you report 
+                    crimes and share information,<br> you become part of the solution. <br>
+                    Together, we can make our community a <br>safer and better place to live."</h2>
+            </div>
             <form class="form">
-                <p class="title">Register</p>
+                <p class="title" >Register</p>
 
                 <div class="name">
                     <label>
@@ -55,7 +60,7 @@
                     <span>Password</span>
                 </label>
                 <label>
-                    <input type="text">
+                    <input type="password">
                     <span>Confirm Password</span>
                 </label>
                 
