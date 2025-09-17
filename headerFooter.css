@@ -1,0 +1,80 @@
+/* header */
+header #Title{font-size: 150%;}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E7E7E7;
+    padding: 1.9% 4.0%;
+}
+
+header > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+header a:visited , header a{
+    text-decoration: none;
+    color: black; 
+    font-weight: 900;
+}
+
+header > ul > a:hover{
+    cursor: pointer;
+    color: black;
+
+}
+
+header button{
+    background-color: black;
+    color: beige;
+    border-radius: 18px;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+button:hover{
+    background-color: #DDA853;
+    border-color: #DDA853;
+    color: black;
+    cursor: pointer;
+}
+
+#cu{word-spacing:   0.5px;}
+
+
+/* footer */
+footer{
+    font-size: 85%;
+    background-color: #183B4E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F5EEDC;
+}
+
+footer a, footer a:visited{
+    color: #F5EEDC;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #DDA853;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+
+
+@media (max-width: 768px){
+    footer p{
+        font-size: 8px;
+        text-align: center;
+    }
+}
