@@ -123,6 +123,9 @@ button.submit:active {
     }
     .quote{
         font-size: 60%;
+        text-align: center;
+        width: 75%;
     }
     
+    .signupBox{padding: 20px 0; gap: 15px;}
 }

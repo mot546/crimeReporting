@@ -32,4 +32,9 @@ main img{
     main img{
         width: 75%;
     }
+    main{
+        padding-top: 3.2%;
+        padding-bottom: 3.2%;
+        gap: 18px;
+    }
 }
