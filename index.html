@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href= "./landingPage.css">
     <link rel = "stylesheet" href="./headerFooter.css">
+    <script src = "./regForm.js" defer></script>
     <title>Neighborhood Crime Reporting System</title>
     <!-- https://colorhunt.co/palette/f5eedc27548a183b4edda853 -color pallete-->
 </head>
 <body>
-    <script src = "./javascript.js"></script>
+    
     <header>
         <h1 id="Title"><a href="#">Crime Reporting System</a></h1>
         <ul>
@@ -58,15 +59,15 @@
                     <span>Email</span>
                 </label>
                 <label>
-                    <input type="password" required>
-                    <span>Password</span>
+                    <input type="password"  id="passInput" required>
+                    <span id = "pass">Password</span>
                 </label>
                 <label>
-                    <input type="password">
-                    <span>Confirm Password</span>
+                    <input type="password" id="cPass">
+                    <span id="cPassText">Confirm Password</span>
                 </label>
                 
-                <button class="submit">Submit</button>
+                <button class="submit" id="submitButton">Submit</button>
                 <p class="sgnIn">Already have an account?
                     <a href="#">SignIn</a>
                 </p>
